@@ -1,0 +1,111 @@
+.orange {
+  background-color: #f59e0b;
+}
+
+.green {
+  background-color: #10b981;
+}
+
+.tiger-orange {
+  background-color: #f97316;
+}
+
+.teal {
+  background-color: #14b8a6;
+}
+
+.dark-red {
+  background-color: #b91c1c;
+}
+
+.white {
+  background-color: #ffffff;
+}
+
+.sky-blue {
+  background-color: #0ea5e9;
+}
+
+.grey {
+  background-color: #64748b;
+}
+
+.password-item {
+  width: 30%;
+  border: 1px solid #94a3b8;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.user-details-card {
+  width: 60%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.website-first-letter {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  font-family: 'Roboto';
+  color: #f8fafc;
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.user-details {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.website-name {
+  width: 80%;
+  font-family: 'Roboto';
+  color: #f8fafc;
+  font-weight: 400;
+  margin: auto;
+  margin-bottom: 5px;
+}
+
+.user-name {
+  width: 80%;
+  font-family: 'Roboto';
+  color: #f8fafc;
+  font-weight: 400;
+  font-weight: 400;
+  margin: auto;
+  margin-bottom: 5px;
+}
+
+.user-password {
+  width: 80%;
+  font-family: 'Roboto';
+  color: #f8fafc;
+  margin: auto;
+  margin-bottom: 5px;
+}
+
+.start-image {
+  width: 80%;
+}
+
+.delete-button {
+  width: 30px;
+  height: 30px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.delete-image {
+  width: 95%;
+  height: 75%;
+}
