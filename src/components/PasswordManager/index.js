@@ -108,50 +108,50 @@ class PasswordManager extends Component {
           <div className="user-card">
             <h1 className="add-password-heading">Add New Password</h1>
             <form className="form-el" onSubmit={this.onAddButton}>
-              <div className="website-input-card">
-                <div className="website-logo-card">
+              <div className="input-card">
+                <div className="logo-card">
                   <img
                     src="https://assets.ccbp.in/frontend/react-js/password-manager-website-img.png"
-                    className="website-logo"
+                    className="logo"
                     alt="website"
                   />
                 </div>
                 <input
                   placeholder="Enter Website"
                   type="text"
-                  className="website-input"
+                  className="input"
                   value={websiteName}
                   onChange={this.onChangeOfWebsiteName}
                 />
               </div>
-              <div className="username-input-card">
-                <div className="username-logo-card">
+              <div className="input-card">
+                <div className="logo-card">
                   <img
                     src="https://assets.ccbp.in/frontend/react-js/password-manager-username-img.png"
-                    className="username-logo"
+                    className="logo"
                     alt=" username"
                   />
                 </div>
                 <input
                   placeholder="Enter Username"
                   type="text"
-                  className="username-input"
+                  className="input"
                   value={userName}
                   onChange={this.onChangeOfUserName}
                 />
               </div>
-              <div className="password-input-card">
-                <div className="password-logo-card">
+              <div className="input-card">
+                <div className="logo-card">
                   <img
                     src="https://assets.ccbp.in/frontend/react-js/password-manager-password-img.png"
-                    className="password-logo"
+                    className="logo"
                     alt="password"
                   />
                 </div>
                 <input
                   placeholder="Enter Password"
                   type="password"
-                  className="password-input"
+                  className="input"
                   value={userPassword}
                   onChange={this.onChangeOfPassword}
                 />

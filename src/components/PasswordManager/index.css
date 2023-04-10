@@ -54,7 +54,7 @@
   align-items: center;
 }
 
-.website-input-card {
+.input-card {
   width: 90%;
   height: 28px;
   background-color: #f8fafc;
@@ -65,7 +65,7 @@
   margin-bottom: 10px;
 }
 
-.website-logo-card {
+.logo-card {
   width: 20%;
   height: 95%;
   display: flex;
@@ -74,84 +74,12 @@
   border-right: 0.5px solid #94a3b8;
 }
 
-.website-logo {
+.logo {
   width: 25px;
   height: 25px;
 }
 
-.website-input {
-  width: 78%;
-  height: 28px;
-  background-color: none;
-  border: none;
-  outline: none;
-  font-family: 'Roboto';
-  color: #64748b;
-  font-weight: 500;
-}
-
-.username-input-card {
-  width: 90%;
-  height: 28px;
-  background-color: #f8fafc;
-  border-radius: 5px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 10px;
-}
-
-.username-logo-card {
-  width: 20%;
-  height: 95%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-right: 0.5px solid #94a3b8;
-}
-
-.username-logo {
-  width: 25px;
-  height: 25px;
-}
-
-.username-input {
-  width: 78%;
-  height: 28px;
-  background-color: none;
-  border: none;
-  outline: none;
-  font-family: 'Roboto';
-  color: #64748b;
-  font-weight: 500;
-}
-
-.password-input-card {
-  width: 90%;
-  height: 28px;
-  background-color: #f8fafc;
-  border-radius: 5px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 10px;
-}
-
-.password-logo-card {
-  width: 20%;
-  height: 95%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-right: 0.5px solid #94a3b8;
-}
-
-.password-logo {
-  width: 25px;
-  height: 25px;
-}
-
-.password-input {
+.input {
   width: 78%;
   height: 28px;
   background-color: none;
@@ -346,18 +274,9 @@
     font-size: 20px;
   }
 
-  .website-input {
+  .input {
     font-size: 12px;
   }
-
-  .username-input {
-    font-size: 12px;
-  }
-
-  .password-input {
-    font-size: 12px;
-  }
-
   .add-button {
     font-size: 12px;
   }
@@ -448,15 +367,7 @@
     font-size: 30px;
   }
 
-  .website-input {
-    font-size: 14px;
-  }
-
-  .username-input {
-    font-size: 14px;
-  }
-
-  .password-input {
+  .input {
     font-size: 14px;
   }
 
